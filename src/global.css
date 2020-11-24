@@ -6,5 +6,12 @@
 }
 
 body{
+    background: 
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url('./Images/planoDeFundo.jpg');
     font-family: 'Noto Sans JP', sans-serif;
+    color: #fff
 }

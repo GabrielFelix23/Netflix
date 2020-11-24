@@ -1,10 +1,16 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
+import {Container} from './style'
+
+import logo from '../../Images/logo.png'
 
 function Header(){
   return(
-    <div>
-      <h1>Header</h1>
-    </div>
+    <Container>
+      <img src={logo} alt="logo"/>
+      <Link to="/login">Entrar</Link>
+    </Container>
   )
 }
 
