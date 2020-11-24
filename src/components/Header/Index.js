@@ -1,12 +1,12 @@
 import React from 'react'
 import './global.css'
 
-function App(){
+function Header(){
   return(
     <div>
-      <h1>Tela App</h1>
+      <h1>Header</h1>
     </div>
   )
 }
 
-export default App
+export default Header
