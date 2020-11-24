@@ -1,11 +1,16 @@
 import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
+
+import Header from './components/Header'
+import Routes from './routes'
 import './global.css'
 
 function App(){
   return(
-    <div>
-      <h1>Tela App</h1>
-    </div>
+    <BrowserRouter>
+      <Header/>
+      <Routes/>
+    </BrowserRouter>
   )
 }
 
