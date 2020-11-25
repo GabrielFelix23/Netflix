@@ -8,10 +8,10 @@
 body{
     background: 
     linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     ),
-    url('./Images/planoDeFundoGradiente.jpg');
+    url('./Images/planoDeFundoGradiente.jpg') no-repeat;
     font-family: 'Noto Sans JP', sans-serif;
     color: #fff
 }
