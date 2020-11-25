@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, ContainerText, ContainerForm} from './style'
+import { FiChevronRight } from "react-icons/fi";
 
 function Home(){
     return(
@@ -14,7 +15,7 @@ function Home(){
                 <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
                 <form>
                     <input type="email" placeholder="Email"/>
-                    <button>VAMOS LÁ</button>
+                    <button>VAMOS LÁ <FiChevronRight/></button>
                 </form>
                 <p>Esta oferta está disponível somente para não assinantes.</p>
             </ContainerForm>

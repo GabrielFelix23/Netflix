@@ -50,13 +50,20 @@ export const ContainerForm = styled.div`
         }
         
         button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 25%;
             height: 8vh;
 
             border: none;
             background: #E50914;
             color: #fff;
-            font-size: 18px
+            font-size: 18px;
+
+            svg{
+                font-size: 25px
+            }
         }
     }
 ` 

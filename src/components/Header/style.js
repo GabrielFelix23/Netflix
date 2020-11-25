@@ -22,6 +22,6 @@ export const Container = styled.div`
         color: #fff;
         width: 12vh;
         height: 5vh;
-        border-radius: 1vh
+        border-radius: 2px
     }
 `
