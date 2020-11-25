@@ -44,7 +44,7 @@ export const ContainerForm = styled.div`
 
         input{
             width: 100%;
-            height: 8vh;
+            height: 10vh;
             padding: 10px;
             font-size: 17px;
         }
@@ -53,13 +53,13 @@ export const ContainerForm = styled.div`
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 25%;
-            height: 8vh;
+            width: 40%;
+            height: 10vh;
 
             border: none;
             background: #E50914;
             color: #fff;
-            font-size: 18px;
+            font-size: 23px;
 
             svg{
                 font-size: 25px
