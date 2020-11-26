@@ -1,10 +1,18 @@
 import React from 'react'
+import {Container, ContainerLogin} from './style'
 
 function Login(){
     return(
-        <div>
-            <h1>Tela Login</h1>
-        </div>
+        <Container>
+            <ContainerLogin>
+                <h1>Entrar</h1>
+                <form>
+                    <input type="email" placeholder="Email ou número de telefone"/>
+                    <input type="password" placeholder="Senha"/>
+                    <button type="submit">Entrar</button>
+                </form>
+            </ContainerLogin>
+        </Container>
     )
 }
 
