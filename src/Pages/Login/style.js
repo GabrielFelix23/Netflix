@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const ContainerLogin = styled.div`
     width: 65vh;
-    height: 80vh;
+    height: 90vh;
     background: rgba(0,0,0,0.7);
     border-radius: 5px;
     padding-top: 5vh;
@@ -61,6 +61,7 @@ export const ContainerHelp = styled.div`
     flex-direction: row;
     color: #BDBDBD;
     font-size: 13px;
+    margin-bottom: 50px
 `
 
 export const ContainerCheck = styled.div`
@@ -71,4 +72,45 @@ export const ContainerCheck = styled.div`
     input[type = checkbox]{
         margin-right: 5px
     }
+`
+
+export const ContainerFacebook = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 70px;
+
+    svg{
+        color: #2E64FE;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    span{
+        font-size: 13px;
+        color: #BDBDBD
+    }
+`
+
+export const ContainerFooter = styled.div`
+    width: 100%;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 13px;
+
+    p{
+        color: #BDBDBD;
+        margin-top: 10px;
+    }
+    
+` 
+export const Marking = styled.span`
+    color: #fff
+` 
+
+export const Link = styled.span`
+    color: #013ADF
 `

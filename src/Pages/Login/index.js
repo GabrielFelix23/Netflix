@@ -1,5 +1,15 @@
 import React from 'react'
-import {Container, ContainerLogin, ContainerHelp, ContainerCheck} from './style'
+import { FaFacebookSquare } from "react-icons/fa";
+import {
+    Container, 
+    ContainerLogin, 
+    ContainerHelp, 
+    ContainerCheck, 
+    ContainerFacebook, 
+    ContainerFooter,
+    Link,
+    Marking
+} from './style'
 
 function Login(){
     return(
@@ -15,13 +25,22 @@ function Login(){
                 <ContainerHelp>
                     <ContainerCheck>
                         <input type="checkbox"/>
-                        <spam>Lembre-se de mim</spam>
+                        <span>Lembre-se de mim</span>
                     </ContainerCheck>
-                    <spam>Precisa de ajuda?</spam>
+                    <span>Precisa de ajuda?</span>
                 </ContainerHelp>
-            </ContainerLogin>
 
-        
+                <ContainerFacebook>
+                    <FaFacebookSquare/>
+                    <span>Conectar com Facebook</span>
+                </ContainerFacebook>
+
+                <ContainerFooter>
+                    <p>Novo por aqui? <Marking>Assine agora.</Marking></p>
+                    <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.<Link>Saiba mais.</Link></p>
+                    
+                </ContainerFooter>
+            </ContainerLogin>
         </Container>
     )
 }
