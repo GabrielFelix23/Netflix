@@ -46,7 +46,29 @@ export const ContainerLogin = styled.div`
             background: #E50914;
             color: #fff;
             font-size: 18px;
-            margin-top: 20px
+            margin-top: 20px;
+            margin-bottom: 10px
         }
+    }
+`
+
+export const ContainerHelp = styled.div`
+    margin-left: 69px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #BDBDBD;
+    font-size: 13px;
+`
+
+export const ContainerCheck = styled.div`
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    input[type = checkbox]{
+        margin-right: 5px
     }
 `
